@@ -1,0 +1,22 @@
+{
+  "name": "bson-schema-faker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poetic/bson-schema-faker.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poetic/bson-schema-faker/issues"
+  },
+  "homepage": "https://github.com/poetic/bson-schema-faker#readme",
+  "dependencies": {
+    "bson": "^0.5.5"
+  }
+}
