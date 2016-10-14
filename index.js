@@ -40,7 +40,7 @@ function bsonSchemaFaker (schema) {
     case 'double':
       return new bson.Double(0)
     case 'objectId':
-      return new bson.objectId('57fbc79335224114d6c0e98b')
+      return bson.ObjectID('57fbc79335224114d6c0e98b')
     default:
       throw new Error(schema.type + ' is not recognized')
   }
